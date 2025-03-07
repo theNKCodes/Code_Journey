@@ -93,11 +93,11 @@ public class Advance {
 
         System.out.println("\n");
         System.out.println("7. Solid Rhombus Pattern");
-        for(int i=1; i<=n; i++){
-            for(int spaces =1; spaces <= (n-i); spaces++){
+        for (int i = 1; i <= n; i++) {
+            for (int spaces = 1; spaces <= (n - i); spaces++) {
                 System.out.print("  ");
             }
-            for(int star=1; star<=n;star++){
+            for (int star = 1; star <= n; star++) {
                 System.out.print("* ");
             }
             System.out.println();
@@ -105,51 +105,61 @@ public class Advance {
 
         System.out.println("\n");
         System.out.println("8. Hollow Rhombus Pattern");
-        for(int i=1; i<=n ; i++){
-            for (int spaces=1 ; spaces<=n-i; spaces++){
+        for (int i = 1; i <= n; i++) {
+            for (int spaces = 1; spaces <= n - i; spaces++) {
                 System.out.print("  ");
             }
-            for(int star=1; star<=n;star++){
-                if(i==1 || i==n || star==n || star==1 ) System.out.print("* ");
-                else System.out.print("  ");
+            for (int star = 1; star <= n; star++) {
+                if (i == 1 || i == n || star == n || star == 1)
+                    System.out.print("* ");
+                else
+                    System.out.print("  ");
             }
             System.out.println();
         }
 
         System.out.println("\n");
         System.out.println("9. Diamond Pattern");
-        for(int i=1; i<=n; i++){
-            for(int spaces=1 ;spaces <=n-i; spaces++) System.out.print(" ");
-            for(int star=1; star<=i; star ++) System.out.print("* ");
+        for (int i = 1; i <= n; i++) {
+            for (int spaces = 1; spaces <= n - i; spaces++)
+                System.out.print(" ");
+            for (int star = 1; star <= i; star++)
+                System.out.print("* ");
             System.out.println();
         }
-        for(int i=n-1; i>=1 ; i--){
-            for(int spaces=1 ;spaces <=n-i; spaces++) System.out.print(" ");
-            for(int star=1; star<=i; star ++) System.out.print("* ");
-            System.out.println();
-        }
-
-        System.out.println("\n");
-        System.out.println("Number Pyramid Pattern");
-        for(int i=1; i<=n ; i++){
-            for(int spaces=1; spaces <=n-i; spaces++) System.out.print(" ");
-            for(int star=1; star<=i; star++) System.out.print(i+" ");
+        for (int i = n - 1; i >= 1; i--) {
+            for (int spaces = 1; spaces <= n - i; spaces++)
+                System.out.print(" ");
+            for (int star = 1; star <= i; star++)
+                System.out.print("* ");
             System.out.println();
         }
 
         System.out.println("\n");
-        System.out.println("Palindromic Pattern with Numbers Pattern");
-        
-        for(int i=1; i<=n ; i++){
-            for(int spaces=1; spaces<=n-i; spaces++){
+        System.out.println("10. Number Pyramid Pattern");
+        for (int i = 1; i <= n; i++) {
+            for (int spaces = 1; spaces <= n - i; spaces++)
+                System.out.print(" ");
+            for (int star = 1; star <= i; star++)
+                System.out.print(i + " ");
+            System.out.println();
+        }
+
+        System.out.println("\n");
+        System.out.println("11. Palindromic Pattern with Numbers Pattern");
+
+        for (int i = 1; i <= n; i++) {
+            for (int spaces = 1; spaces <= n - i; spaces++) {
                 System.out.print(" ");
             }
             boolean trigger = false;
-            no = (i*2)/2;
-            for(int star =1; star <= (i*2)-1; star ++){
+            no = (i * 2) / 2;
+            for (int star = 1; star <= (i * 2) - 1; star++) {
                 System.out.print(no);
-                if(no==1) trigger =true ;
-                if (trigger == true ) no+=2;
+                if (no == 1)
+                    trigger = true;
+                if (trigger == true)
+                    no += 2;
                 no--;
             }
             System.out.println();
