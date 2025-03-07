@@ -1,4 +1,4 @@
-4//12. Funtions and Method.
+//12. Funtions and Method.
 // The functions which are written inside the classes are called Methods.
 
 // Main having return type void. void is a valid return type in Java.

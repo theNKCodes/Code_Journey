@@ -165,5 +165,13 @@ public class conditions {
                     break;
                 default: System.out.println("invalid input");
             }
+
+            /* Enhanced Switch Statements
+                int days = sc.nextInt();
+                switch (days) {
+                    case 1 -> System.out.println("Mon");
+                    case 2 -> System.out.println("Tue");
+                }
+            */
     }
 }

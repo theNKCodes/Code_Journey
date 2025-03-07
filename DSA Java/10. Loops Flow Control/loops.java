@@ -28,7 +28,7 @@ public class loops {
         // System.out.println();
 
         // //ex. 1.3  Print number from 1 to n
-        Scanner sc = new Scanner(System.in);
+        // Scanner sc = new Scanner(System.in);
         // int range = sc.nextInt();
         // int ct1 = 1;
         // while(ct1<= range){
