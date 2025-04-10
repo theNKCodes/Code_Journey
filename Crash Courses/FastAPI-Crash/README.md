@@ -51,8 +51,8 @@ The script will:
 
 1. **Clone the repo**
    ```bash
-   git clone 
-   cd FastAPI-Crash
+   git clone https://github.com/theNKCodes/Code_Journey.git
+   cd "Crash Courses/FastAPI-Crash"
    ```
 
 2. **Create a virtual environment**
