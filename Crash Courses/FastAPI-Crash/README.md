@@ -30,12 +30,18 @@ You can run this project on both **Linux/macOS** and **Windows**.
 
 > Ensure you have `bash` installed on Windows or run in WSL/Git Bash terminal.
 
-1. Make the script executable:
+1. Clone the repo
+   ```bash
+   git clone https://github.com/theNKCodes/Code_Journey.git
+   cd "Crash Courses/FastAPI-Crash"
+   ```
+
+2. Make the script executable:
    ```bash
    chmod +x run.sh
    ```
 
-2. Run the script:
+3. Run the script:
    ```bash
    ./run.sh
    ```
@@ -189,24 +195,6 @@ Once running, you can explore your API using:
 
 ## 👨‍💻 Author
 
-Made with ❤️ for learning FastAPI and building beautiful APIs.
-```
-
-**`run.sh` File Content:**
-```bash
-#!/bin/bash
-
-# Create virtual environment
-python3 -m venv venv
-
-# Activate virtual environment
-source venv/bin/activate
-
-# Install dependencies
-pip install fastapi uvicorn
-
-# Run the FastAPI server
-uvicorn main:app --reload
-```
+Made with ❤️ for learning FastAPI and building beautiful APIs by Nikhil Kamble 😇
 
 This provides a complete setup with both the documentation and automation script needed to run the project. The `run.sh` script simplifies the setup process for Unix-based systems and Git Bash on Windows.
